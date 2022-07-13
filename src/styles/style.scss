@@ -45,6 +45,7 @@ body {
       flex-direction: column;
       align-items: flex-start;
       .cross {
+        user-select: none;
         position: absolute;
         font-size: 35px;
         top: 2%;

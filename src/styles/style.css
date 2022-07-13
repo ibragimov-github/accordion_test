@@ -92,6 +92,10 @@ body {
   align-items: flex-start;
 }
 .container .accordion .accordion-item .cross {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   font-size: 35px;
   top: 2%;
