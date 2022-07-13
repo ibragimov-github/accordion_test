@@ -44,9 +44,33 @@ body {
   }
 }
 .container h1 {
-  font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .container h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .container h1 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .container h1 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1920px) {
+  .container h1 {
+    font-size: 64px;
+  }
 }
 .container .accordion {
   width: 100%;
@@ -81,7 +105,6 @@ body {
   transform: rotate(45deg);
 }
 .container .accordion .accordion-item .action-button {
-  font-size: 36px;
   font-weight: 400;
   width: 100%;
   text-align: left;
@@ -90,6 +113,31 @@ body {
   cursor: pointer;
   outline: none;
   transition: 0.4s;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .container .accordion .accordion-item .action-button {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .container .accordion .accordion-item .action-button {
+    font-size: 27px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .container .accordion .accordion-item .action-button {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container .accordion .accordion-item .action-button {
+    font-size: 27px;
+  }
+}
+@media (min-width: 1920px) {
+  .container .accordion .accordion-item .action-button {
+    font-size: 36px;
+  }
 }
 .container .accordion .accordion-item .active {
   color: #02818A;
@@ -101,31 +149,35 @@ body {
   transition: max-height 0.2s ease-out;
 }
 .container .accordion .accordion-item .panel .content {
-  font-size: 20px;
   font-weight: 400;
 }
 @media (min-width: 375px) and (max-width: 767px) {
   .container .accordion .accordion-item .panel .content {
+    font-size: 15px;
     width: 327px;
   }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .container .accordion .accordion-item .panel .content {
+    font-size: 15px;
     width: 612px;
   }
 }
 @media (min-width: 1280px) and (max-width: 1439px) {
   .container .accordion .accordion-item .panel .content {
+    font-size: 14px;
     width: 640px;
   }
 }
 @media (min-width: 1440px) and (max-width: 1919px) {
   .container .accordion .accordion-item .panel .content {
+    font-size: 15px;
     width: 840px;
   }
 }
 @media (min-width: 1920px) {
   .container .accordion .accordion-item .panel .content {
+    font-size: 20px;
     width: 942px;
   }
 }/*# sourceMappingURL=style.css.map */

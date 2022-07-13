@@ -19,9 +19,13 @@ body {
   @media (min-width: 1440px) and (max-width: 1919px) {width: 1212.28px;}
   @media (min-width: 1920px) {width: 1618.52px;}
   h1 {
-    font-size: 64px;
     font-weight: 400;
     line-height: 64px;
+    @media (min-width: 375px) and (max-width: 767px) {font-size: 30px;}
+    @media (min-width: 768px) and (max-width: 1279px) {font-size: 42px;}
+    @media (min-width: 1280px) and (max-width: 1439px) {font-size: 42px;}
+    @media (min-width: 1440px) and (max-width: 1919px) {font-size: 48px;}
+    @media (min-width: 1920px) {font-size: 64px;}
   }
   .accordion {
     width: 100%;
@@ -52,7 +56,6 @@ body {
       }
       .rotate {transform: rotate(45deg);}
       .action-button {
-        font-size: 36px;
         font-weight: 400;
         width: 100%;
         text-align: left;
@@ -61,6 +64,11 @@ body {
         cursor: pointer;
         outline: none;
         transition: 0.4s;
+        @media (min-width: 375px) and (max-width: 767px) {font-size: 24px;}
+        @media (min-width: 768px) and (max-width: 1279px) {font-size: 27px;}
+        @media (min-width: 1280px) and (max-width: 1439px) {font-size: 24px;}
+        @media (min-width: 1440px) and (max-width: 1919px) {font-size: 27px;}
+        @media (min-width: 1920px) {font-size: 36px}
       }
       .active {color: #02818A;}
       .panel {
@@ -69,13 +77,27 @@ body {
         overflow: hidden;
         transition: max-height 0.2s ease-out;
         .content {
-          font-size: 20px;
           font-weight: 400;
-          @media (min-width: 375px) and (max-width: 767px) {width: 327px;}
-          @media (min-width: 768px) and (max-width: 1279px) {width: 612px;}
-          @media (min-width: 1280px) and (max-width: 1439px) {width: 640px;}
-          @media (min-width: 1440px) and (max-width: 1919px) {width: 840px;}
-          @media (min-width: 1920px) {width: 942px;}
+          @media (min-width: 375px) and (max-width: 767px) {
+            font-size: 15px;
+            width: 327px;
+          }
+          @media (min-width: 768px) and (max-width: 1279px) {
+            font-size: 15px;
+            width: 612px;
+          }
+          @media (min-width: 1280px) and (max-width: 1439px) {
+            font-size: 14px;
+            width: 640px;
+          }
+          @media (min-width: 1440px) and (max-width: 1919px) {
+            font-size: 15px;
+            width: 840px;
+          }
+          @media (min-width: 1920px) {
+            font-size: 20px;
+            width: 942px;
+          }
         }
     }
     }
